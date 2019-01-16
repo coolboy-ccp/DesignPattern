@@ -24,6 +24,9 @@
 		0085BF5221EDC1540094AE0F /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085BF5121EDC1540094AE0F /* CommandPattern.swift */; };
 		0085BF5421EDCA060094AE0F /* PatternTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085BF5321EDCA060094AE0F /* PatternTypes.swift */; };
 		0085BF5621EDDA250094AE0F /* FlyweightPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085BF5521EDDA250094AE0F /* FlyweightPattern.swift */; };
+		008AE32921EED35F00B48C9D /* BridgePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AE32821EED35F00B48C9D /* BridgePattern.swift */; };
+		008AE32B21EEFFD500B48C9D /* InterpreterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AE32A21EEFFD500B48C9D /* InterpreterPattern.swift */; };
+		008AE32D21EF0E9E00B48C9D /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AE32C21EF0E9E00B48C9D /* StatePattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		0085BF5121EDC1540094AE0F /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		0085BF5321EDCA060094AE0F /* PatternTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternTypes.swift; sourceTree = "<group>"; };
 		0085BF5521EDDA250094AE0F /* FlyweightPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightPattern.swift; sourceTree = "<group>"; };
+		008AE32821EED35F00B48C9D /* BridgePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgePattern.swift; sourceTree = "<group>"; };
+		008AE32A21EEFFD500B48C9D /* InterpreterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterPattern.swift; sourceTree = "<group>"; };
+		008AE32C21EF0E9E00B48C9D /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				0085BF4F21ED8C380094AE0F /* MediatorPattern.swift */,
 				0085BF5121EDC1540094AE0F /* CommandPattern.swift */,
 				0085BF5521EDDA250094AE0F /* FlyweightPattern.swift */,
+				008AE32821EED35F00B48C9D /* BridgePattern.swift */,
+				008AE32A21EEFFD500B48C9D /* InterpreterPattern.swift */,
+				008AE32C21EF0E9E00B48C9D /* StatePattern.swift */,
 			);
 			path = ReadMe;
 			sourceTree = "<group>";
@@ -184,12 +193,15 @@
 				0009AAC721EC62EB00C5CD79 /* FactoryPattern.swift in Sources */,
 				0009AACB21EC752900C5CD79 /* TemplateMethodPattern.swift in Sources */,
 				0009AAB221EC2EF600C5CD79 /* ViewController.swift in Sources */,
+				008AE32B21EEFFD500B48C9D /* InterpreterPattern.swift in Sources */,
 				0009AACD21EC848600C5CD79 /* BuilderPattern.swift in Sources */,
 				0085BF2C21ED79480094AE0F /* PrototypePattern.swift in Sources */,
 				0085BF2A21ED74450094AE0F /* ProxyPattern.swift in Sources */,
+				008AE32D21EF0E9E00B48C9D /* StatePattern.swift in Sources */,
 				0009AAC521EC3D9700C5CD79 /* SingleTonPattern.swift in Sources */,
 				0085BF5221EDC1540094AE0F /* CommandPattern.swift in Sources */,
 				0085BF5621EDDA250094AE0F /* FlyweightPattern.swift in Sources */,
+				008AE32921EED35F00B48C9D /* BridgePattern.swift in Sources */,
 				0009AAB021EC2EF600C5CD79 /* AppDelegate.swift in Sources */,
 				0009AAC921EC6F1000C5CD79 /* AbstractFactoryPattern.swift in Sources */,
 				0085BF5021ED8C380094AE0F /* MediatorPattern.swift in Sources */,
